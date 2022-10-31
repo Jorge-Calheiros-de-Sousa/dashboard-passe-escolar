@@ -49,20 +49,26 @@ Para aprender mais sobre Next.js e FireBase, acesse os links abaixo:
 - Dashboard
 <img src="resources/imgs/home.png" />
 ---
+
 - Listar cartões
 <img src="resources/imgs/listacartao.png" />
 ---
+
 - Informações do cartão
 <img src="resources/imgs/cartao.png" />
 ---
+
 - Cadastro de cartões
 <img src="resources/imgs/cadastro.png" />
 ---
+
 - Listar onibûs
 <img src="resources/imgs/onibus.png" />
 ---
+
 - Listar viagens
 <img src="resources/imgs/viagem.png" />
 ---
+
 - Listar recargas
 <img src="resources/imgs/recarga.png" />
