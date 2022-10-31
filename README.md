@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sistema de gerenciamento de passe escolar
 
-## Getting Started
+## Requisitos
+- Node
+- Ter o repositorio [api-gerenciadora-passe-escolar](https://github.com/Jorge-Calheiros-de-Sousa/api-gerenciadora-passe-escolar) executando
 
-First, run the development server:
+## Vamos começar
 
+Clone o repositorio api gerenciadora de passe escolar
+
+<img src="resources/imgs/repositorio.png" />
+
+---
+
+
+Mantenha-o executando
+
+<img src="resources/imgs/terminal.png" />
+
+---
+
+
+E depois nesse repositorio execute os comandos abaixo
 ```bash
+
+npm i
+
 npm run dev
-# or
-yarn dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [localhost:3000](http://localhost:3000 ) com o seu navegador e vejá o resultado.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Para aprender mais
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Para aprender mais sobre Next.js e FireBase, acesse os links abaixo:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [Documentação | Next.js](https://nextjs.org/docs)
+- [Documentação | Firebase](https://firebase.google.com/docs?gclid=Cj0KCQjwxIOXBhCrARIsAL1QFCZ1LD27_i9K-nEKbL5t7RO5llDksTbDH2V5EVJd1FOSZjxhQrT_8TsaAknMEALw_wcB&gclsrc=aw.ds)
+ 
 
-## Learn More
+---
+## Telas
 
-To learn more about Next.js, take a look at the following resources:
+- Index
+<img src="resources/imgs/indexPage.png" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+- Dashboard
+<img src="resources/imgs/home.png" />
+---
+- Listar cartões
+<img src="resources/imgs/listacartao.png" />
+---
+- Informações do cartão
+<img src="resources/imgs/cartao.png" />
+---
+- Cadastro de cartões
+<img src="resources/imgs/cadastro.png" />
+---
+- Listar onibûs
+<img src="resources/imgs/onibus.png" />
+---
+- Listar viagens
+<img src="resources/imgs/viagem.png" />
+---
+- Listar recargas
+<img src="resources/imgs/recarga.png" />

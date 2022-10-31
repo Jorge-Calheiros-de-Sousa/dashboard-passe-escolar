@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -21,6 +22,9 @@ const Home: NextPage = () => {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
+        <h1 className={styles.descrition}>
+          Go to <br /><Link href={"/admin/dashboard"}><p className='underline font-bold cursor-pointer'>Dashboard</p></Link>
+        </h1>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
